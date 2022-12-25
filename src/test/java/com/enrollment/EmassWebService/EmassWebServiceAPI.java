@@ -77,7 +77,7 @@ public class EmassWebServiceAPI extends AbstractTestNGSpringContextTests {
 
     @Test
     public void enrollmentSparseTest() throws IOException, SAXException, ParserConfigurationException {
-        Map<String, Map<String, String>> map1 = EmassWebService.map1;
+        Map<String, Map<String, String>> map1 = null;// = EmassWebService.records;
         DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
         File template_file = ResourceUtils.getFile("classpath:Enrollement_data.xml");
         InputStream is = new FileInputStream(template_file);

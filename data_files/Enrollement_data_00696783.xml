@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:enr="http://www.healthedge.com/connector/schema/enrollmentsparse">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <enr:enrollment>
+         <actionMode>SPARSE</actionMode>
+         <asOfDate>2021-01-01</asOfDate>
+         <!--subscriberId>00213144</subscriberId-->
+         <sendToWorkBasketIfExceptionsPresent>true</sendToWorkBasketIfExceptionsPresent>
+         <subscription>
+            <maintenanceReasonCode>
+               <codeSetName>SubscriptionCreateReason</codeSetName>
+               <codeEntry>1</codeEntry>
+            </maintenanceReasonCode>
+            <maintenanceComment>SOAPUI_Test_BN</maintenanceComment>
+            <!--subscriptionIdentifier>00213144</subscriptionIdentifier-->
+            <hccIdentifier>00696783</hccIdentifier>
+            <receiptDate>2022-05-01</receiptDate>
+            <subscriptionUDTList>
+               <subscriptionUDT>
+                  <udtListValueSet>
+                     <attributeRoleName>EMAAS Medical Eligibility Codes</attributeRoleName>
+                     <attrValueAsString>ME Code 13</attrValueAsString>
+                  </udtListValueSet>
+                  <userDefinedTermReference>
+                     <ID>EMAAS Medical Eligibility Code</ID>
+                  </userDefinedTermReference>
+               </subscriptionUDT>
+            </subscriptionUDTList>
+            <accountMatchData>
+               <accountHccIdentifier>
+                  <accountHccIdentificationNumber>0000000061</accountHccIdentificationNumber>
+               </accountHccIdentifier>
+            </accountMatchData>
+            <applicationInfo>
+               <ratingArea>R-MN006</ratingArea>
+            </applicationInfo>
+         </subscription>
+         <member>
+            <maintenanceTypeCode>CREATE</maintenanceTypeCode>
+            <memberIsSubscriber>true</memberIsSubscriber>
+            <hccIdentifier>00696783</hccIdentifier>
+            <receiptDate>2022-05-01</receiptDate>
+            <smokingStatus>Smoker</smokingStatus>
+            <memberMatchData>
+               <definitionName>MemberMatchDefinition</definitionName>
+            </memberMatchData>
+            <individual>
+               <taxIdentificationNumber>200-77-7753</taxIdentificationNumber>
+               <genderCode>F</genderCode>
+               <maritalStatusCode>Married</maritalStatusCode>
+               <birthDate>1956-12-09</birthDate>
+               <primaryName>
+                  <lastName>EASTWOOD           </lastName>
+                  <firstName>LINDA       </firstName>
+                  <middleName>Z</middleName>
+               </primaryName>
+            </individual>
+            <physicalAddress>
+               <memberPhysicalAddress>
+                  <addressInfo>
+                     <postalAddress>
+                        <address>PO BOX 108</address>
+                        <address2>108 MAIN ROAD</address2>
+                        <stateCode>MO</stateCode>
+                        <zipCode>63334</zipCode>
+                        <cityName>BOWLING GREEN</cityName>
+                        <countyCode>M3</countyCode>
+                     </postalAddress>
+                     <addressPhoneList>
+                        <telephoneNumber>
+                           <phoneAreaCode>320</phoneAreaCode>
+                           <phoneNumber>4240592</phoneNumber>
+                           <individualPhoneTypeCode>
+                              <codeSetName>IndividualTypeCode</codeSetName>
+                              <codeEntry>TE</codeEntry>
+                           </individualPhoneTypeCode>
+                        </telephoneNumber>
+                     </addressPhoneList>
+                  </addressInfo>
+                  <addressTypeCode>
+                     <codeSetName>IndividualAddressType</codeSetName>
+                     <shortName>Residential</shortName>
+                  </addressTypeCode>
+               </memberPhysicalAddress>
+               <memberPhysicalAddress>
+                  <addressInfo>
+                     <postalAddress>
+                        <address>PO BOX 108</address>
+                        <address2>108 MAIN ROAD</address2>
+                        <stateCode>MO</stateCode>
+                        <zipCode>63334</zipCode>
+                        <cityName>BOWLING GREEN</cityName>
+                     </postalAddress>
+                     <addressPhoneList>
+                        <telephoneNumber>
+                           <phoneAreaCode>320</phoneAreaCode>
+                           <phoneNumber>4240592</phoneNumber>
+                           <individualPhoneTypeCode>
+                              <codeSetName>IndividualTypeCode</codeSetName>
+                              <codeEntry>TE</codeEntry>
+                           </individualPhoneTypeCode>
+                        </telephoneNumber>
+                     </addressPhoneList>
+                  </addressInfo>
+                  <addressTypeCode>
+                     <codeSetName>IndividualAddressType</codeSetName>
+                     <shortName>Subscription Billing Address</shortName>
+                  </addressTypeCode>
+               </memberPhysicalAddress>
+            </physicalAddress>
+            <correspondenceAddress>
+               <postalAddress>
+                  <address>PO BOX 108</address>
+                  <address2>108 MAIN ROAD</address2>
+                  <stateCode>MO</stateCode>
+                  <zipCode>63334</zipCode>
+                  <cityName>BOWLING GREEN</cityName>
+               </postalAddress>
+            </correspondenceAddress>
+            <otherResponsiblePersonInfo>
+               <otherResponsiblePersonInfo>
+                  <responsiblePersonName>
+                     <lastName>FLETCHE</lastName>
+                     <firstName>,MART</firstName>
+                     <middleName>H</middleName>
+                  </responsiblePersonName>
+               </otherResponsiblePersonInfo>
+            </otherResponsiblePersonInfo>
+            <membershipUDTList>
+               <membershipUDT>
+                  <udtListValueSet>
+                     <attributeRoleName>EMAAS Medical Eligibility Codes</attributeRoleName>
+                     <attrValueAsString>ME Code 13</attrValueAsString>
+                  </udtListValueSet>
+                  <userDefinedTermReference>
+                     <ID>EMAAS Medical Eligibility Code</ID>
+                  </userDefinedTermReference>
+               </membershipUDT>
+            </membershipUDTList>
+            <relationshipToSubscriberDefinitionReference>
+               <relationshipName>Self</relationshipName>
+            </relationshipToSubscriberDefinitionReference>
+            <raceOrEthnicity>
+               <listMode>DEFAULT</listMode>
+               <raceOrEthnicityCodes>
+                  <codeSetName>RaceOrEthnicityCode</codeSetName>
+                  <codeEntry>1</codeEntry>
+                  <!--ID>Asian Indian</ID-->
+               </raceOrEthnicityCodes>
+            </raceOrEthnicity>
+            <planSelection>
+               <startDate>2021-01-01</startDate>
+               <benefitPlanMatchData>
+                  <benefitPlanHccId>EMaaS Test AK</benefitPlanHccId>
+               </benefitPlanMatchData>
+            </planSelection>
+            <providerSelections>
+               <providerSelection>
+                  <providerRoleType>15</providerRoleType>
+                  <providerDateRanges>
+                     <startDate>2022-09-30</startDate>
+                     <endDate>3000-01-01</endDate>
+                     <providerMatch>
+                        <!--asOfDate>?</asOfDate-->
+                        <supplier>
+                           <hccIdentificationNumber>0001</hccIdentificationNumber>
+                        </supplier>
+                     </providerMatch>
+                     <providerSelectionReason>
+                        <codeSetName>providerSelectionReason</codeSetName>
+                        <codeEntry>1</codeEntry>
+                        <!--shortName>Auto Assigned</shortName-->
+                     </providerSelectionReason>
+                  </providerDateRanges>
+               </providerSelection>
+            </providerSelections>
+            <memberComplianceProgram>
+               <complianceProgramSelections>
+                  <!--updateMode>?</updateMode-->
+                  <complianceProgramSelection>
+                     <complianceProgramDateRanges>
+                        <startDate>2022-10-21</startDate>
+                        <endDate>0</endDate>
+                        <complianceCode>C</complianceCode>
+                     </complianceProgramDateRanges>
+                     <complianceProgramReference>
+                        <ID>EMaaS Administrative Lock In - Clinic</ID>
+                     </complianceProgramReference>
+                  </complianceProgramSelection>
+                  <complianceProgramSelection>
+                     <complianceProgramDateRanges>
+                        <startDate>2022-10-21</startDate>
+                        <endDate>0</endDate>
+                        <complianceCode>C</complianceCode>
+                     </complianceProgramDateRanges>
+                     <complianceProgramReference>
+                        <ID>EMaaS Lock In - Spenddown</ID>
+                     </complianceProgramReference>
+                  </complianceProgramSelection>
+               </complianceProgramSelections>
+            </memberComplianceProgram>
+            <enrollmentMemberFactors>
+               <updateMode>Create</updateMode>
+               <memberFactors>
+                  <memberFactor>
+                     <factorType>
+                        <codeSetName>MemberFactorType</codeSetName>
+                        <codeEntry>EMaaS02</codeEntry>
+                     </factorType>
+                     <factorDateRanges>
+                        <factorStartDate>2022-08-01</factorStartDate>
+                        <factorEndDate>2022-08-02</factorEndDate>
+                        <factorQualifier>
+                           <codeSetName>MemberFactorQualifier</codeSetName>
+                           <codeEntry>3</codeEntry>
+                        </factorQualifier>
+                        <factorValue>100</factorValue>
+                     </factorDateRanges>
+                  </memberFactor>
+               </memberFactors>
+            </enrollmentMemberFactors>
+         </member>
+      </enr:enrollment>
+   </soapenv:Body>
+</soapenv:Envelope>
