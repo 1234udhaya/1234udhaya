@@ -1,0 +1,11 @@
+lastName:Flintston
+firstName:Sunder000
+birthDate:1980-03-22
+smokingStatus:Non Smoker
+genderCode:Male
+maritalStatusCode:Married
+address:602 Roiland St
+stateCode:MN
+zipCode:56381
+cityName:Starbuck
+countyCode:27121
